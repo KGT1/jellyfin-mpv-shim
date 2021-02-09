@@ -103,7 +103,7 @@ class Settings(BaseModel):
     sync_speed_attempts: int = 3
     sync_attempts: int = 5
     sync_revert_seek: bool = True
-    sync_osd_message: bool = True
+    sync_osd_message: bool = False
     screenshot_menu: bool = True
     check_updates: bool = True
     notify_updates: bool = True
