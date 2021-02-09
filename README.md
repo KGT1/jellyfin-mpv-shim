@@ -334,7 +334,7 @@ need to.
  - `sync_attempts` - Number of attempts before disabling sync play. Default: `5`
  - `sync_revert_seek` - Attempt to revert seek via MPV OSC. Default: `true`
      - This could break if you use revert-seek markers or scripts that use it.
- - `sync_osd_message` - Write syncplay status messages to OSD. Default: `true`
+ - `sync_osd_message` - Write syncplay status messages to OSD. Default: `false`
 
 ### Desktop Mode Settings
 
